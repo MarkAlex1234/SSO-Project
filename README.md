@@ -1,4 +1,4 @@
-# Project Title
+# A Basic SSO-Project
 
 This project is a simple Node.js application that implements OAuth authentication with Google using Passport.js. It's designed to demonstrate the basic setup required to authenticate users via Google in a web application.
 
