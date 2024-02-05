@@ -1,6 +1,9 @@
 import { config } from 'dotenv';
 import express from "express";
 
+// AUTH ROUTES
+import authRoutes from './routes/auth';
+
 // LOAD ENV VARAIBLES 
 config();
 
@@ -18,6 +21,7 @@ async function bootstrap() {
     }
 
     try{
+        app.use('/api/auth', authRoutes)
         app.listen(PORT, () => console.log(`RUNNING ON PORT ${PORT}`));
 
     } catch(error) {
