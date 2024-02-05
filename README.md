@@ -26,8 +26,11 @@ To run this project, you need Node.js and npm installed on your machine. Once yo
 3. Create a `.env` file in the root directory of your project and define the following environment variables:
 
 PORT=your_port_number
+
 GOOGLE_CLIENT_ID=your_google_client_id
+
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+
 GOOGLE_REDIRECT_URL=your_redirect_url_after_authentication
 
 4. Start the application by running `npm start`.
